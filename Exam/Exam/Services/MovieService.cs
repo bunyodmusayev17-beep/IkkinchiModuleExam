@@ -29,19 +29,7 @@ public class MovieService : IMovieService
             ReleaseDate = createMovieDto.ReleaseDate
 
         };
-        var movie1 = new Movie()
-        {
-            Id = Guid.NewGuid(),
-            Titile = "movie",
-            Director = "Me",
-            DurationMinuts = 2,
-            Rating = 2.5,
-            BoxOfficeEarnings = 2000,
-            ReleaseDate = DateTime.Now,
-
-        };
-
-        movies.Add(movie1);
+        
         
         
         movies.Add(movie);
